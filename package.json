@@ -1,0 +1,31 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Back-end for expense tracker app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexscar99/expense-tracker.git"
+  },
+  "author": "Alex Scarlett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexscar99/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/alexscar99/expense-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
